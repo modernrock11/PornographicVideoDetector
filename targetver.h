@@ -1,8 +1,15 @@
 #pragma once
 
-// 包括 SDKDDKVer.h 将定义可用的最高版本的 Windows 平台。
+// Update the include path in your project's configuration file
 
-// 如果要为以前的 Windows 平台生成应用程序，请包括 WinSDKVer.h，并将
-// WIN32_WINNT 宏设置为要支持的平台，然后再包括 SDKDDKVer.h。
+// For example, if you are using CMake, you can add the following line to your CMakeLists.txt file:
+
+// include_directories("path/to/SDKDDKVer.h")
+
+// If you are using Visual Studio, you can update the include path in the project properties:
+
+// Right-click on the project -> Properties -> Configuration Properties -> VC++ Directories -> Include Directories
+
+// Add the path to the directory containing SDKDDKVer.h
 
 #include <SDKDDKVer.h>

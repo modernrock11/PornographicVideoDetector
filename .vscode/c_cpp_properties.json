@@ -10,14 +10,14 @@
             "cStandard": "c17",
             "cppStandard": "c++14",
             "intelliSenseMode": "windows-msvc-x64",
-            "compilerPathInCppPropertiesJson": "/usr/bin/clang",
-            "mergeConfigurations": false,
+            "mergeConfigurations": true,
             "browse": {
                 "path": [
                     "/workspaces/PornographicVideoDetector/**",
                     "${workspaceFolder}"
                 ],
-                "limitSymbolsToIncludedHeaders": true
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
             }
         },
         {
